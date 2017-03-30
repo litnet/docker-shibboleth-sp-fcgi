@@ -1,5 +1,5 @@
 DOCKER_IMAGE_VERSION=2.5.3
-DOCKER_IMAGE_NAME=litnet/shibboleth-sp-fcgi
+DOCKER_IMAGE_NAME=litnet/docker-shibboleth-sp-fcgi
 DOCKER_IMAGE_TAGNAME=$(DOCKER_IMAGE_NAME):$(DOCKER_IMAGE_VERSION)
 
 default: build
