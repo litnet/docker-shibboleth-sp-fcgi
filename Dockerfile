@@ -18,7 +18,7 @@ WORKDIR /etc/shibboleth
 
 VOLUME ["/etc/shibboleth"]
 
-EXPOSE 8118 9119
+EXPOSE 8118/TCP 9119/TCP
 
 CMD ["docker-entrypoint.sh"]
 
